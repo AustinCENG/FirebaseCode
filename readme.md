@@ -19,4 +19,4 @@ Major Activities:
 
 Notice:
 
-When check in the project into GitHub, please don't check in your google-services.json file.
+When you use Firebase and want to check in the project to GitHub, please don't check in your google-services.json file.
