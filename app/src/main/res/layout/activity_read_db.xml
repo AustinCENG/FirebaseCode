@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground1"
+    tools:context=".ReadDB">
+    <TextView
+        android:id="@+id/readname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:text="Name"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="4dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/readtemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:text="Temperature" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/readhumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:text="Humidity" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/readmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:text="Message" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="4dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/readtimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:text="Timestamp" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseCode</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_status">Current Status</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="register_for_new_user">Register for New User</string>
+    <string name="sign_in">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="read_from_db">Read from DB</string>
+    <string name="write_to_db">Write to DB</string>
+    <string name="quit">Quit</string>
+    <string name="input_your_e_mail">Input Your E-mail</string>
+    <string name="input_your_password">Input your password</string>
+    <string name="register_new_user">Register New User</string>
+    <string name="input_your_password_again">Input your password again</string>
+    <string name="data_unavailable">No Data is available on the Database</string>
+</resources>
