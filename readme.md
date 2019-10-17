@@ -2,6 +2,9 @@ This is an example of read/write data from the database.
 
 Make sure you have your own google-service.json file copied to "app" directory to use the Firebase.
 
+Reference starting from here:
+https://firebase.google.com/docs/auth
+
 Major Activities:
 
     1. Main activity to login and register.
@@ -16,4 +19,4 @@ Major Activities:
 
 Notice:
 
-When check in the project into GitHub, please don't check in your google-services.json file. 
+When check in the project into GitHub, please don't check in your google-services.json file.
