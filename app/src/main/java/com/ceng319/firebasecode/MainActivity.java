@@ -123,6 +123,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void loginUser(String email, String password){
         // TODO: Login with Email and Password on Firebase.
+        if (email.length()==0 || password.length()==0){
+            Toast.makeText(getApplicationContext(), "Email and password cannot be empty",
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
